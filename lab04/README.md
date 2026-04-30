@@ -2,7 +2,7 @@
 
 ## 实验概述
 
-本实验使用Python与Taichi实现一个基于光线投射的局部光照渲染器。场景不依赖外部模型文件，而是在 Taichi Kernel 中通过隐式几何方程定义球体与圆锥，并在每个像素上完成求交、深度竞争与Phong着色。
+本实验使用Python与Taichi实现一个基于光线投射的局部光照渲染器。场景通过隐式几何方程定义球体与圆锥，并在每个像素上完成求交、深度竞争与Phong着色。
 
 首先完成了以下内容：
 
@@ -53,6 +53,9 @@ python optional_main.py
 
 ```text
 lab04/
+├── demo/
+│   ├── lab04_advanced.gif
+│   └── lab04_basic.gif
 ├── main.py
 ├── optional_main.py
 ├── README.md
@@ -149,6 +152,20 @@ I = I_{ambient}
 ```
 
 由于硬阴影没有半影过渡，所以阴影边界会比较清晰比较硬（所以叫硬阴影）。这和真实光源有面积时产生的软阴影不同，但实现简单，而且能直观体现二次射线检测遮挡关系的思想。
+
+## Demo
+
+### 基础部分
+
+- [lab04_basic.gif](demo/lab04_basic.gif)
+
+![lab04_basic](demo/lab04_basic.gif)
+
+### 选做部分
+
+- [lab04_advanced.gif](demo/lab04_advanced.gif)
+
+![lab04_advanced](demo/lab04_advanced.gif)
 
 ## 实验总结
 
