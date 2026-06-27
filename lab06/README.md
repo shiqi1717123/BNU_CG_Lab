@@ -1,5 +1,6 @@
 # Lab06: Differentiable Rasterization Mesh Fitting
-姓名：黄诗淇 学号：202411081063
+姓名：黄诗淇 学号：202411081063 专业：计算机科学与技术
+
 本仓库提交的是实验六的notebook，代码与运行结果均保存在 [Hsq_lab06.ipynb](Hsq_lab06.ipynb) 中。实验在魔塔社区的云平台GPU环境完成，仓库中保留了基础部分、选做部分以及所有中间输出模型。
 
 ## 实验内容
